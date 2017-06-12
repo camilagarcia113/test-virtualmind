@@ -11,3 +11,4 @@ The sql script for the users creation table and data insertion is in src/main/re
 It's not necessary to run the script. The DB will be created when the application is starting to run
 But the user and password for the datasource should be changed in the application.properties
 
+To see the web page, once the app is up and running go to localhost:8080/index.html
