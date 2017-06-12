@@ -1,14 +1,19 @@
-Run mvn spring-boot:run
+#### Steps to run the application:
 
-Then go to the following endpoints to access to the information:
+* MySql db configuration should be changed in the application.properties (user and password).
+* The sql script for the users creation table and data insertion is in src/main/resources/schema.sql
+    * Only create the schema **usersDB**, it should be enough to get the app up and running.
+      ```
+      CREATE SCHEMA usersDB;
+      USE usersDB;
+      ```
 
-localhost:8080/users
-localhost:8080/quotation/{currency} where {currency} can be ARS, USD, BRL
+      The **users** table will be created and populated when it is starting to run.
 
+* Run ```mvn spring-boot:run ```
 
-The sql script for the users creation table and data insertion is in src/main/resources/schema.sql
+* Then go to the following endpoints to access to the information:
+    * **localhost:8080/users** -> to get the users saved in the db
+    * **localhost:8080/quotation/{currency}** -> to get the quotation of the currency (where {currency} can be ARS, USD, BRL)
 
-It's not necessary to run the script. The DB will be created when the application is starting to run
-But the user and password for the datasource should be changed in the application.properties
-
-To see the web page, once the app is up and running go to localhost:8080/index.html
+* To see the quotations web page **localhost:8080/index.html**
