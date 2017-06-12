@@ -1,7 +1,7 @@
-package camila.garcia.test.controller;
+package camila.garcia.controller;
 
-import camila.garcia.test.dao.UserDao;
-import camila.garcia.test.model.user.User;
+import camila.garcia.dao.UserDao;
+import camila.garcia.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

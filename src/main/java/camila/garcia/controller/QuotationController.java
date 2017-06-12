@@ -1,4 +1,4 @@
-package camila.garcia.test.controller;
+package camila.garcia.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

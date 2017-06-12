@@ -1,6 +1,6 @@
-package camila.garcia.test.dao;
+package camila.garcia.dao;
 
-import camila.garcia.test.model.user.User;
+import camila.garcia.user.User;
 import org.springframework.data.repository.CrudRepository;
 
 import javax.transaction.Transactional;

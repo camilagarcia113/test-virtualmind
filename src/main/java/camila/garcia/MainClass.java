@@ -1,4 +1,4 @@
-package camila.garcia.test;
+package camila.garcia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

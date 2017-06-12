@@ -1,4 +1,4 @@
-package camila.garcia.test.model.user;
+package camila.garcia.user;
 
 import javax.persistence.*;
 import java.io.Serializable;
